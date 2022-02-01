@@ -44,16 +44,13 @@ body {
     font-weight: normal;
 }
 
-.test {
-    background-color: black;
-}
-
 /* Advans */
 
 .advanc {
     display: flex;
     justify-content: center;
     margin: 70px auto 0px ;
+    text-align: center;
 }
 
 .advanc_box {
@@ -80,23 +77,41 @@ body {
     
     width: 100px;
     
-
     border-top: 3px solid white;
 }
 
 .image_one {
+    display: block;
     background-image: url(../images/favorit_icon.png);
     background-repeat: no-repeat;
+    position: relative;
+    top: -14px;
+    width: 36px;
+    height: 34px;
+    margin: 0 auto;
 }
 
+
 .image_two {
+    display: block;
     background-image: url(../images/tables_icon.png);
     background-repeat: no-repeat;
+    position: relative;
+    top: -14px;
+    width: 36px;
+    height: 38px;
+    margin: 0 auto;
 }
 
 .image_free {
+    display: block;
     background-image: url(../images/saphir_icon.png);
     background-repeat: no-repeat;
+    position: relative;
+    top: -14px;
+    width: 38px;
+    height: 34px;
+    margin: 0 auto;
 }
 
 .advanc h1 {
