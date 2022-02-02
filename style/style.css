@@ -80,6 +80,18 @@ body {
     border-top: 3px solid white;
 }
 
+.title_advanc {
+    position: relative;
+    right: 18px;
+    bottom: -10px;
+}
+
+.sub_title_advanc {
+    position: relative;
+    top: -20px;
+    right: 18px;
+}
+
 .image_one {
     display: block;
     background-image: url(../images/favorit_icon.png);
@@ -119,7 +131,33 @@ body {
     color: white;
 }
 
-.advanc h2 {
+.advanc p {
     font-size: 18px;
     color: white;
+}
+
+/* About Us */
+
+/* .about_us {
+    background: #000;
+}
+
+.navbar {
+    color: blue;
+} */
+
+.nav_link {
+    color: black;
+}
+
+.nav_link:hover {
+    color: #f6ae48;
+}
+
+.navba::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 3px;
+    color: black
 }
