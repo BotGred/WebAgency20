@@ -2,12 +2,10 @@ body {
     margin: 0;
 }
 
-* {
-    box-sizing: border-box;
-}
 .container {
+    /* box-sizing: border-box; */
     width: 100%;
-    max-width: 1170px;
+    max-width: 1245px;
     margin: 0 auto;
 }
 
@@ -136,24 +134,137 @@ body {
     color: white;
 }
 
-/* About Us */
+/* menu */
 
-.about_us::after {
+.menu {
+    margin-top: 35px;
+    
+}
+.menu::after {
     display: block;
     content: "";
     width: 100%;
     height: 2px;
     background-color: #adadad;
+    margin-top: 35px;
 }
 
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+}
 .navbar {
     color: blue;
-} */
+}
 
 .nav_link {
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
     color: black;
+    margin: 0 15px;
+    transition: color .1s linear;
 }
 
 .nav_link:hover {
     color: #f6ae48;
+}
+
+/* Studio */
+
+.studio_inner {
+    display: flex;
+    justify-content: space-between;
+    height: 525px;
+    /* margin-top: 20px; */
+}
+
+.title_studio {
+    align-self: center;
+    font-size: 48px;
+    height: 140px;
+    z-index: 1000;
+}
+
+.sub_title_studio {
+    align-self: center;
+    font-size: 20px;
+    width: 700px;
+    height: 145px;
+    z-index: 1000;
+}
+
+.std_image {
+    align-self: center;
+    width: 580px;
+    height: 247px;
+    position: absolute;
+    left: 36%;
+    background-position: center;
+    background-image: url(../images/WE.jpg);
+    background-repeat: no-repeat;
+    z-index: 950;
+}
+
+/* Studio Job */
+
+.std_jobs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.std_item > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    font-weight: 700;
+}
+
+.std_item > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.std_item {
+    color: black;
+    background-color: white;
+    width: 400px;
+    height: 345px;
+    transition: background .2s linear, color .1s linear;
+    padding: 0 22px;
+    text-decoration: none;
+}
+
+.std_item:hover {
+    color: white;
+    background-color: #f6ae48;
+}
+
+.std_img_1 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/std_img_rocket.png);
+    background-repeat: no-repeat;
+    /* margin-bottom: 0; */
+}
+
+.std_img_2 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/std_img_mobile.png);    
+    background-repeat: no-repeat;
+    /* margin-bottom: 0; */
+}
+
+.std_img_3 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/lifeline5.png);    
+    background-repeat: no-repeat;
+    /* margin-bottom: 0; */
+}
+
+.std_title {
+    margin-top: 0;
 }
