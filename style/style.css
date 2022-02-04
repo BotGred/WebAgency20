@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+}
+
+.container {
+    /* box-sizing: border-box; */
+    width: 100%;
+    max-width: 1245px;
+    margin: 0 auto;
+}
+
+/* Intro */
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 810px;
+    background-position: center;
+    background-image: url(../images/bg_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro__inner {
+    
+    text-align: center;
+}
+
+.intro_title {
+    font-family: 'Russo One', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.intro_subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+}
+
+/* Advans */
+
+.advanc {
+    display: flex;
+    justify-content: center;
+    margin: 70px auto 0px ;
+    text-align: center;
+}
+
+.advanc_box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 160px;
+    border: 3px solid white;
+    margin: 0 30px 0;
+    border-top: none;
+}
+
+.advanc_box::before {
+    content: "";
+    display: block;
+    width: 100px;
+    border-top: 3px solid white;
+}
+
+.advanc_box::after {
+    content: "";
+    display: block;
+    
+    width: 100px;
+    
+    border-top: 3px solid white;
+}
+
+.title_advanc {
+    position: relative;
+    right: 18px;
+    bottom: -10px;
+}
+
+.sub_title_advanc {
+    position: relative;
+    top: -20px;
+    right: 18px;
+}
+
+.image_one {
+    display: block;
+    background-image: url(../images/favorit_icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -14px;
+    width: 36px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+
+.image_two {
+    display: block;
+    background-image: url(../images/tables_icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -14px;
+    width: 36px;
+    height: 38px;
+    margin: 0 auto;
+}
+
+.image_free {
+    display: block;
+    background-image: url(../images/saphir_icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -14px;
+    width: 38px;
+    height: 34px;
+    margin: 0 auto;
+}
+
+.advanc h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.advanc p {
+    font-size: 18px;
+    color: white;
+}
+
+/* menu */
+
+.menu {
+    margin-top: 35px;
+    
+}
+.menu::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #adadad;
+    margin-top: 35px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.navbar {
+    color: blue;
+}
+
+.nav_link {
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    transition: color .1s linear;
+}
+
+.nav_link:hover {
+    color: #f6ae48;
+}
+
+/* Studio */
+
+.studio_inner {
+    display: flex;
+    justify-content: space-between;
+    height: 525px;
+    /* margin-top: 20px; */
+}
+
+.title_studio {
+    align-self: center;
+    font-size: 48px;
+    height: 140px;
+    z-index: 1000;
+}
+
+.sub_title_studio {
+    align-self: center;
+    font-size: 20px;
+    width: 700px;
+    height: 145px;
+    z-index: 1000;
+}
+
+.std_image {
+    align-self: center;
+    width: 580px;
+    height: 247px;
+    position: absolute;
+    left: 36%;
+    background-position: center;
+    background-image: url(../images/WE.jpg);
+    background-repeat: no-repeat;
+    z-index: 950;
+}
+
+/* Studio Job */
+
+.std_jobs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 250px;
+}
+
+.std_item > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    font-weight: 700;
+}
+
+.std_item > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.std_item {
+    color: black;
+    background-color: white;
+    width: 400px;
+    height: 345px;
+    transition: background .2s linear, color .1s linear;
+    padding: 0 22px;
+    text-decoration: none;
+}
+
+.std_item:hover {
+    color: white;
+    background-color: #f6ae48;
+}
+
+.std_img_1 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/std_img_rocket.png);
+    background-repeat: no-repeat;
+    /* margin-bottom: 0; */
+}
+
+.std_img_2 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/std_img_mobile.png);    
+    background-repeat: no-repeat;
+    /* margin-bottom: 0; */
+}
+
+.std_img_3 {
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/lifeline5.png);    
+    background-repeat: no-repeat;
+    /* margin-bottom: 0; */
+}
+
+.std_title {
+    margin-top: 0;
+}
+
+.std_price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.price {
+    color: #fff;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    position: relative;
+    padding: 5px 15px;
+}
+.arrow_img {
+    width: 22px;
+    height: 23px;
+    background-image: url(../images/right_arrow_icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 20px;
+}
+
+.bg_image_credo {
+}
+.our_credo_title {
+}
+.our_credo_sub_title {
+}
