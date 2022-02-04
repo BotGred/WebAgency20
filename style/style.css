@@ -293,9 +293,37 @@ body {
     right: 20px;
 }
 
-.bg_image_credo {
+.our_credo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 567px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/bg_credo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+/* .bg_credo_inner {
+    display: flex;
+    justify-content: center;
+    flex-direction:;
+    max-width: 1060px;
+} */
+
 .our_credo_title {
+    font-family: 'Russo One', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
 }
+
 .our_credo_sub_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
 }
