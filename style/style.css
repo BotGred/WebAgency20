@@ -211,6 +211,7 @@ body {
 .std_jobs {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 250px;
 }
 
 .std_item > h1 {
@@ -267,4 +268,34 @@ body {
 
 .std_title {
     margin-top: 0;
+}
+
+.std_price {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.price {
+    color: #fff;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    position: relative;
+    padding: 5px 15px;
+}
+.arrow_img {
+    width: 22px;
+    height: 23px;
+    background-image: url(../images/right_arrow_icon.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 20px;
+}
+
+.bg_image_credo {
+}
+.our_credo_title {
+}
+.our_credo_sub_title {
 }
