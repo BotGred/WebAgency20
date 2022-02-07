@@ -2,6 +2,9 @@ body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
 .container {
     /* box-sizing: border-box; */
     width: 100%;
@@ -293,6 +296,8 @@ body {
     right: 20px;
 }
 
+/* Our Credo */
+
 .our_credo {
     display: flex;
     flex-direction: column;
@@ -326,4 +331,96 @@ body {
     font-size: 24px;
     color: #fff;
     font-weight: normal;
+}
+
+/* Development */
+
+.develop {
+    display: flex;
+    justify-content: center;
+    margin-top: 208px;
+    margin-bottom: 50px;
+}
+
+.develop_item {
+    display: flex;
+    width: 366px;
+    height: 317px;
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+.develop_item:hover .develop_sub_titile {
+    border-color: aqua;
+}
+
+.develop_img1 {
+    width: 366px;
+    height: 317px;
+    background-image: url(../images/bg_landing_page.jpg);
+    background-repeat: no-repeat;
+}
+
+.develop_img2 {
+    width: 366px;
+    height: 317px;
+    background-image: url(../images/bg_web_site.jpg);
+    background-repeat: no-repeat;
+}
+
+.develop_img3 {
+    width: 366px;
+    height: 317px;
+    background-image: url(../images/bg_order.jpg);
+    background-repeat: no-repeat;
+}
+
+.develop_std {
+    display: flex;
+    justify-content: space-between;
+    width: 366px;
+    height: 317px;
+    position: absolute;
+}
+
+.develop_title {
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    position: absolute;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 75px;
+    text-transform: uppercase;
+}
+
+.develop_title::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.develop_sub_titile {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 15px;
+    right: 30px;
+    border: 1px solid #fff;
+    align-self: flex-end;
+    margin: 0 30px 14px 30px;
+}
+
+.right_arr_big {
+    width: 32px;
+    height: 33px;
+    /* background-color: #000; */
+    background-image: url(../images/right_arrow_big_icon.png);
+    background-repeat: no-repeat;
+    align-self: flex-end;
+    margin-bottom: 26px;
+    margin-right: 46px;
 }
